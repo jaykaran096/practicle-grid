@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height:100%;
+    width:100%;
+    /*background-color: aqua;*/
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 20% 50% 30%;
+}
+.elem{
+    /*border: 1px solid black;*/
+}
+#top-left{ 
+    width:100%;
+    /*background-color: rgb(251, 192, 121);*/
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#square{
+    margin:10px;
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    rotate: 45deg;    
+}
+#top-left-right{
+    text-align: right;
+    padding: 15px;
+    font-size: 15px;
+    justify-items: right;
+    /*background-color:rgb(95, 7, 95) ;*/
+    width: 100%;
+    justify-content: center;
+}
+#top-left-right h4{
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+#left-bottom{
+
+    text-align: left;
+    padding-top: 80px;
+    font-size: 12px;
+    /*background-color: rgb(93, 93, 213);*/
+
+    }
+#center{
+    font-size: 60px;
+    font-weight: 20px;
+    line-height: 80px;
+    /*background-color: #808080;*/
+    padding: 20px;
+    
+}
+#center h3:nth-child(2n){
+    text-align: center;
+    font-weight: 100;
+    padding: 2px;
+}
+#right{
+    
+    grid-row:  1/4;
+    grid-column:2/6;
+   /* background-color: rgb(245, 243, 243);*/
+    padding: 10px 10px 10px 10px ;
+      
+}
+#right video{
+    width: 85%;
+    height:100%;
+    object-fit: cover;
+    
+}
+#arrow{
+    position: absolute;
+    right: 58%;
+    top: 45%;
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+    
+}
+#arrow img{
+    
+}

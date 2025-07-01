@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+httml,body{
+    width: 100%;
+    height: 100%;
+}
+#car0{ 
+  
+    line: height -10%;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(78, 21, 21);
+    padding: 300px 300px 300px 300px;
+    margin: 10px 30px 60px 90px;
+    width: 1000px;
+    height: 400px;
+    background-color: rgb(204, 124, 124);
+}
+#box { 
+    border:rgb(228, 3, 3) solid 2px;
+    border-radius:50px;
+    background-color: rgb(232, 240, 129);
+    height:400px;
+    width:900px;
+}
+#car1{
+    width: 100px;
+    height: 90px;
+    background-color: blueviolet;
+}
+
+#car2{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(240, 237, 106);
+
+}#car3{
+    position:absolute;
+    right: 30%;
+    width:300px;
+    height: 80px;
+    background-color: rgb(112, 47, 35);
+}
